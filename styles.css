@@ -1,0 +1,153 @@
+.navbar {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1c2333;
+    padding: 10px 0px;
+}
+
+.left-navbar{
+    display:flex;
+    align-items: center;
+}
+
+.left-navbar .left-icons{
+    display: flex;
+    align-items: center;
+    
+}
+
+.left-navbar .left-icons .list-btn button{
+    color: white;
+    background-color: #1c2333;
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 15px;
+    font-size: 1rem;
+    
+}
+
+.left-navbar .left-icons .list-btn button:hover{
+    background-color: #2b3245;
+}
+
+.left-navbar .left-icons .logo-btn button{
+    color: white;
+    background-color: #1c2333;
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+.left-navbar .project-info{
+    display: flex;
+    align-items: center;
+}
+
+/* .left-navbar .project-info .user-profile-pic img{
+    width: 10%;
+    height: 10%;
+    border-radius: 60%;
+
+} */
+
+.left-navbar .project-info .user-name button{
+    color: #0079F2;
+    background-color: #1c2333;
+    outline: none;
+    border: none;
+    padding: 2px 5px;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+.left-navbar .project-info .user-name button:hover{
+    background-color: #2b3245;
+    
+}
+
+.left-navbar .project-info .project-name button{
+    color: white;
+    background-color: #1c2333;
+    outline: none;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+.left-navbar .project-info .coding-language-type{
+    color: white;
+    margin-left: 5px;
+
+}
+
+.left-navbar .history-btn button{
+    color: white;
+    background-color: #1c2333;
+    outline:none;
+    border: none;
+    margin-left: 20px;
+    font-size: 1.1rem;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+.left-navbar .history-btn button:hover{
+    background-color: #2b3245;
+}
+
+.middle-navbar .run-btn button{
+    color: #6CD97E;
+    background-color: #044a10 ;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.middle-navbar .run-btn button:hover{
+    background-color: #6CD97E;
+    color: #BFFFCA ;
+}
+
+.right-navbar{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.right-navbar .invite-btn button{
+    color: white;
+    background-color: #2b3245;
+    border: 1px solid transparent;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.right-navbar .invite-btn:hover{
+    background-color: #2b3245;
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 5px;
+    margin: -1px;
+}
+
+.right-navbar .search-btn button{
+    color: white;
+    background-color: #1c2333;
+    outline: none;
+    border:none;
+    padding: 3px 7px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.right-navbar .search-btn button:hover{
+    background-color: #2b3245;
+}
